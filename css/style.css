@@ -1,0 +1,16 @@
+.p-image{
+   width: 300px;
+    border-radius: 50% !important;
+}
+
+.mainn{
+    display: flex;
+}
+
+.about-me{
+    padding-top: 20%;
+}
+.hm{
+    cursor: pointer;
+    
+}

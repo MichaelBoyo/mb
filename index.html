@@ -17,6 +17,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -51,17 +52,20 @@
     </nav>
     <main class="page lanidng-page">
       <section class="portfolio-block block-intro">
-        <div class="container">
-          <div
-            class="avatar"
-            style="background-image: url('assets/img/avatars/avatar.jpg')"
-          ></div>
+        <div class="container mainn">
+          <div class="text-center">
+            <img
+              src="./assets/img/avatars/mike.jpg"
+              class="rounded p-image"
+              alt="profileImage"
+            />
+          </div>
+
           <div class="about-me">
             <p>
               Hello! I am <strong>Michael Boyo</strong>. I am a
               <strong>Software Engineer</strong>. I have passion for building
-              products that scale.
-              I write Java, JavaScript and Python.
+              products that scale. I write Java, JavaScript and Python.
             </p>
             <a class="btn btn-outline-primary" role="button" href="hire-me.html"
               >Hire me</a
@@ -78,32 +82,28 @@
                   class="img-fluid image"
                   src="assets/img/nature/image5.jpg"
               /> -->
-            </a>
+              </a>
             </div>
             <div class="col-md-6 col-lg-4 item zoom-on-hover">
-              <a href="#"
-                >
+              <a href="#">
                 <!-- <img
                   class="img-fluid image"
                   src="assets/img/nature/image2.jpg"
               /> -->
-            </a>
+              </a>
             </div>
             <div class="col-md-6 col-lg-4 item zoom-on-hover">
               <a href="#">
                 <!-- <img class="img-fluid image" src="assets/img/tech/image4.jpg"
               /> -->
-            </a>
+              </a>
             </div>
           </div>
         </div>
       </section>
       <section class="portfolio-block call-to-action border-bottom">
         <div class="container">
-        
           <div class="d-flex justify-content-center align-items-center content">
-            
-            
             <!-- <h3>Like what you see?</h3>
             <a
               href="hire-me.html"
@@ -172,7 +172,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12 col-lg-5 offset-lg-1 text">
-            <h3>Health Management Project</h3>
+            <h3  class="hm">Health Management Program</h3>
+            <script>
+              document.querySelector(".hm").addEventListener("click", () => {
+                window.open("https://github.com/MichaelBoyo/BudgetManagementSystem", "_blank")
+              });
+            </script>
+          
             <p>
               A system that allows users to register, login and track monitor
               their health records. they so do by regularly updating their test
